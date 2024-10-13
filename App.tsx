@@ -1,12 +1,14 @@
 import React from 'react';
 
-import PasswordGenerator from './components/PasswordGenerator';
+// import PasswordGenerator from './components/PasswordGenerator';
+import BackgroundChanger from './components/BackgroundChanger';
 import { ScrollView, StyleSheet } from 'react-native';
 
 const App = (): React.JSX.Element => {
     return (
         <ScrollView style={styles.mainBG} keyboardShouldPersistTaps="handled">
-           <PasswordGenerator />
+           {/* <PasswordGenerator /> */}
+           <BackgroundChanger />
         </ScrollView>
     );
 };
