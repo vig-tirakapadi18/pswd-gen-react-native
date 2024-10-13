@@ -151,7 +151,7 @@ const PasswordGenerator = (): React.JSX.Element => {
                     <View>
                         <Text>Long press to copy</Text>
                         <Text
-                            selectable={true} 
+                            selectable={true}
                             style={[styles.password, styles.textBig, styles.fontBold, styles.textCenter, styles.blockMargin]}
                         >
                             {password}
