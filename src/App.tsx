@@ -1,8 +1,9 @@
 import React from 'react';
-
-// import PasswordGenerator from './components/PasswordGenerator';
 import { ScrollView, StyleSheet } from 'react-native';
-import RollTheDice from './components/Dice/RollTheDice';
+
+// import RollTheDice from './components/Dice/RollTheDice';
+// import PasswordGenerator from './components/PasswordGenerator/PasswordGenerator';
+import CurrencyConverter from './components/CurrencyConverter/CurrencyConverter';
 
 
 const App = (): React.JSX.Element => {
@@ -10,7 +11,8 @@ const App = (): React.JSX.Element => {
     return (
         <ScrollView style={styles.mainBG} keyboardShouldPersistTaps="handled">
            {/* <PasswordGenerator /> */}
-           <RollTheDice />
+           {/* <RollTheDice /> */}
+           <CurrencyConverter />
         </ScrollView>
     );
 };
