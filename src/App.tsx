@@ -1,9 +1,11 @@
 import React from 'react';
 import { ScrollView, StyleSheet } from 'react-native';
+import MusicPlayerApp from './components/MusicPlayer/MusicPlayerApp';
+// import TicTacToe from './components/TicTacToe/TicTacToe';
 
 // import RollTheDice from './components/Dice/RollTheDice';
 // import PasswordGenerator from './components/PasswordGenerator/PasswordGenerator';
-import CurrencyConverter from './components/CurrencyConverter/CurrencyConverter';
+// import CurrencyConverter from './components/CurrencyConverter/CurrencyConverter';
 
 
 const App = (): React.JSX.Element => {
@@ -12,7 +14,9 @@ const App = (): React.JSX.Element => {
         <ScrollView style={styles.mainBG} keyboardShouldPersistTaps="handled">
            {/* <PasswordGenerator /> */}
            {/* <RollTheDice /> */}
-           <CurrencyConverter />
+           {/* <CurrencyConverter /> */}
+           {/* <TicTacToe /> */}
+           <MusicPlayerApp />
         </ScrollView>
     );
 };
